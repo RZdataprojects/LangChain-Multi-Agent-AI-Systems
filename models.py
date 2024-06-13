@@ -11,8 +11,8 @@ def clear_gpu_memory():
 
 
 def initialize_hugging_face_models(model_name: str, hugging_face_token: str):
-    tokenizer = AutoTokenizer.from_pretrained(model_name, token="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")
-    hugging_face_model = AutoModelForCausalLM.from_pretrained(model_name, token="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")
+    tokenizer = AutoTokenizer.from_pretrained(model_name, token=hugging_face_token)
+    hugging_face_model = AutoModelForCausalLM.from_pretrained(model_name, token=hugging_face_token)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     hugging_face_model.to(device)
     return hugging_face_model, tokenizer
