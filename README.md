@@ -9,6 +9,8 @@ Uses Pytorch - CUDA, hugging face Transformers, Google's generative-ai, pandas, 
 - Configurable roles (LLM, Human Male, Human Female)
 - Customizable number of games and rounds
 - Detailed logging and CSV output
+- LLMs are not notified whether and if there are further rounds, but they can view outputs of previous rounds
+- If there is more than a single round, the players switch roles (Proposer/Responder), with Gemini starting each game by default
 
 ## Setup
 
