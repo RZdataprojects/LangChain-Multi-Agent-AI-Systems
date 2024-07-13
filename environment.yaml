@@ -1,0 +1,21 @@
+name: Multi-Agent AI Systems - LLMs Arena 
+channels:
+  - defaults
+  - nvidia
+  - pytorch
+  
+dependencies:
+  - python>=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - re
+  - pandas
+  - numpy
+  - transformers
+  - argparse
+  - google-generativeai
+  - csv
+  - pip:
+      - ruff  # dev
