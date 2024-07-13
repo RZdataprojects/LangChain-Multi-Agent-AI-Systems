@@ -1,4 +1,4 @@
-name: Multi-Agent AI Systems - LLMs Arena 
+name: llms-arena
 channels:
   - defaults
   - nvidia
