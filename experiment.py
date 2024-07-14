@@ -15,11 +15,10 @@ class Experiment():
             1: LLM (gemini) vs LLM (llama)
             2: LLM (gemini) vs Human Male (llama)
             3: "Human Male" (gemini) vs LLM (llama)
-            4: LLM (gemini) vs "Human Male" (llama)
-            5: "Human Female" (gemini) vs LLM (llama)
-            6: LLM (gemini) vs "Human Female" (llama)
-            7: "Human Male" (gemini) vs "Human Female" (llama)
-            8: "Human Female" (gemini) vs "Human Male" (llama)
+            4: "Human Female" (gemini) vs LLM (llama)
+            5: LLM (gemini) vs "Human Female" (llama)
+            6: "Human Male" (gemini) vs "Human Female" (llama)
+            7: "Human Female" (gemini) vs "Human Male" (llama)
         :param google_api_key:
         :param hugging_face_token:
         """
@@ -35,21 +34,19 @@ class Experiment():
             1: LLM (gemini) vs LLM (llama)
             2: LLM (gemini) vs Human Male (llama)
             3: "Human Male" (gemini) vs LLM (llama)
-            4: LLM (gemini) vs "Human Male" (llama)
-            5: "Human Female" (gemini) vs LLM (llama)
-            6: LLM (gemini) vs "Human Female" (llama)
-            7: "Human Male" (gemini) vs "Human Female" (llama)
-            8: "Human Female" (gemini) vs "Human Male" (llama)
+            4: "Human Female" (gemini) vs LLM (llama)
+            5: LLM (gemini) vs "Human Female" (llama)
+            6: "Human Male" (gemini) vs "Human Female" (llama)
+            7: "Human Female" (gemini) vs "Human Male" (llama)
         """
         self.role = {
             1: {"gemini": "Large Language Model", "llama": "Large Language Model"},
             2: {"gemini": "Large Language Model", "llama": "Human Male"},
             3: {"gemini": "Human Male", "llama": "Large Language Model"},
-            4: {"gemini": "Large Language Model", "llama": "Human Male"},
-            5: {"gemini": "Human Female", "llama": "Large Language Model"},
-            6: {"gemini": "Large Language Model", "llama": "Human Female"},
-            7: {"gemini": "Human Male", "llama": "Human Female"},
-            8: {"gemini": "Human Female", "llama": "Human Male"},
+            4: {"gemini": "Human Female", "llama": "Large Language Model"},
+            5: {"gemini": "Large Language Model", "llama": "Human Female"},
+            6: {"gemini": "Human Male", "llama": "Human Female"},
+            7: {"gemini": "Human Female", "llama": "Human Male"},
         }
 
     def play(self, mode: int) -> list[list]:
