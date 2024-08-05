@@ -43,9 +43,9 @@ If you use this code in your research, please cite:
 
 author = {Roei Zaady},
 
-title = {Multi-Agent AI Systems - LLMs Arena},
+title = {Ultimatum Arena - Multi-Agent AI Systems},
 
 year = {2024},
 
-url = {https://github.com/RZdataprojects/llms-arena}
+url = {https://github.com/RZdataprojects/Multi-Agent-AI-Systems}
 }
