@@ -1,4 +1,5 @@
-# Ultimatum Arena - Multi-Agent AI Systems in Game-Theory 
+# Ultimatum Arena 
+## Multi-Agent AI Systems in Game-Theory 2024
 
 This project implements an experiment framework for studying interactions between large language models (LLMs) in the context of the [Ultimatum Game](https://en.wikipedia.org/wiki/Ultimatum_game).
 Utilizes: Pytorch - CUDA, hugging face Transformers, Google's generative-ai, pandas, numpy.
