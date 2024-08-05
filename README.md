@@ -38,14 +38,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Citation
 
 If you use this code in your research, please cite:
-
-@software{LLMs_Arena,
-
+```
+@software{
+Ultimatum Arena,
 author = {Roei Zaady},
-
 title = {Ultimatum Arena - Multi-Agent AI Systems},
-
 year = {2024},
-
-url = {https://github.com/RZdataprojects/Multi-Agent-AI-Systems}
-}
+url = {https://github.com/RZdataprojects/Multi-Agent-AI-Systems}}
+```
